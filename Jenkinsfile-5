@@ -35,7 +35,7 @@ pipeline {
     }
     stage('stage 5') {
       steps {
-        sh 'echo $AAA_SECRET_TEXT'
+        sh "echo $AAA_SECRET_TEXT"
         sh 'env | sort'
       }
     }
